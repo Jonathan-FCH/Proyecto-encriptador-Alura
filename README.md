@@ -1,6 +1,6 @@
 # Encriptador de Texto
 
-A continuación un miniproyecto, en el cual se desarrolló una heherramienta de encriptación de texto.
+A continuación un miniproyecto, en el cual se desarrolló una herramienta de encriptación de texto.
 
 ## Funcionalidades
 
