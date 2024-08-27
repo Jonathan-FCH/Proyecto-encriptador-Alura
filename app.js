@@ -3,14 +3,14 @@ const mensaje = document.querySelector(".mensaje__en__pantalla");
 
 
 function botonEncriptar(){
-   const textoEncriptado = encriptar(texArea.value)
+   const textoEncriptado = encriptar(texArea.value.toLowerCase())
    mensaje.value = textoEncriptado
    texArea.value = "";
    mensaje.style.backgroundImage = "none"
 }
 
 function botonDescencriptar(){
-    const textoDesencriptado = desencriptar(texArea.value)
+    const textoDesencriptado = desencriptar(texArea.value.toLowerCase())
     mensaje.value = textoDesencriptado;
     texArea.value = "";
     mensaje.style.backgroundImage = "none"
@@ -77,11 +77,11 @@ function desencriptar(textoEncriptado) {
 };
 
 
-let textoEncriptado = encriptar(texto.toLowerCase());
+/*let textoEncriptado = encriptar(texto.toLowerCase());
 console.log("Texto encriptado:", textoEncriptado);
 
 let textoDesencriptado = desencriptar(textoEncriptado);
-console.log("Texto desencriptado:", textoDesencriptado);
+console.log("Texto desencriptado:", textoDesencriptado);*/
 
 
 
